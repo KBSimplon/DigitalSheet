@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>WTTSSDS</title>
+        <title>WTTSSADS</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -89,18 +89,19 @@
                 <div class="title m-b-md">
                    
                     
+                    
+                    <h1 style="font-size: 36px; color: #4B9CFE; background-color: rgba(24,24,24,0.8);">Welcome To The Simplon Super Awesome Digital Sheet !</h1>
 
-                    <h1 style="font-size: 36px; color: aqua; background-color: rgba(24,24,24,0.8);">Welcome To The Simplon Super Digital Sheet !</h1>
+                    <!-- <h3 style="font-size: 20px; color: white; background-color: rgba(24,24,24,0.8);">Please log-in or register in the top right corner of this page, it's easy and free, with no adds and a lot of cookies ! </h3> -->
 
-                    <h3 style="font-size: 20px; color: white; background-color: rgba(24,24,24,0.8);">Please log-in or register in the top right corner of this page, it's easy and free, with no adds and a lot of cookies ! </h3>
+                    </br></br>
+                    <h3 style="font-size: 20px; color: white; background-color: rgba(24,24,24,0.8);"> <a href="{{ route('register') }}" style="color: #78D1F4; text-decoration: none;">Join us now !</a> </h3>
 
-                    <h3 style="font-size: 20px; color: white; background-color: rgba(24,24,24,0.8);"> <a href="{{ route('register') }}" style="color: white; text-decoration: none;">Join us now !</a> </h3>
+                    
 
-                    </br>
+                    <!-- <h4 style="font-size: 16px; color: aqua; background-color: rgba(24,24,24,0.8);">... What are you waiting for ! Login or register and get a *reward : a developper plush !</h4> 
 
-                    <h4 style="font-size: 16px; color: aqua; background-color: rgba(24,24,24,0.8);">... What are you waiting for ! Login or register and get a *reward : a developper plush !</h4> 
-
-                    <h6 style="font-size: 8px; color: white; background-color: rgba(24,24,24,0.8); align-self: center;">*Reward is only available with a premium account, 99.99$/per day. Paypal, ticket restaurant, monopoly's ticket, visa gold and any other card are accepted ... especially visa gold. #givememoney</h6>
+                    <h6 style="font-size: 8px; color: white; background-color: rgba(24,24,24,0.8); align-self: center;">*Reward is only available with a premium account, 99.99$/per day. Paypal, ticket restaurant, monopoly's ticket, visa gold and any other card are accepted ... especially visa gold. #givememoney</h6> -->
                 </div>
 
                 <!-- <div class="links">
