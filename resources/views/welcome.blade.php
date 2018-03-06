@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>WTTSSSNSP1</title>
+        <title>WTTSSDS</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -64,16 +64,19 @@
             }
         </style>
     </head>
-    <body style="background: url('images/cat_face_glasses_thick_65455_1920x1200.jpg') no-repeat center fixed; -webkit-background-size: cover; background-size: cover;">
+    <body style="background: url('images/welcome1.jpg') no-repeat center fixed; -webkit-background-size: cover; background-size: cover;">
         
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
+                        <a class="dropdown-item" href="{{ route('task') }}" style="color: white; background-color: rgba(24,24,24,0.8);">
+                            Profile
+                        </a>
+                        </br>
                         <a class="dropdown-item" href="{{ route('logout') }}" style="color: white; background-color: rgba(24,24,24,0.8);" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                             Logout
                         </a>
-
                         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;"> @csrf </form>
                     @else
                         <a href="{{ route('login') }}" style="color: white; background-color: rgba(24,24,24,0.8);">Login</a>
@@ -85,15 +88,15 @@
             <div class="content">
                 <div class="title m-b-md">
                    
-                    </br>
+                    
 
-                    <h1 style="font-size: 36px; color: aqua; background-color: rgba(24,24,24,0.8);">Welcome To The Simplon Super Social Network Sénart Promo 1 !</h1>
+                    <h1 style="font-size: 36px; color: aqua; background-color: rgba(24,24,24,0.8);">Welcome To The Simplon Super Digital Sheet !</h1>
 
                     <h3 style="font-size: 20px; color: white; background-color: rgba(24,24,24,0.8);">Please log-in or register in the top right corner of this page, it's easy and free, with no adds and a lot of cookies ! </h3>
 
                     <h3 style="font-size: 20px; color: white; background-color: rgba(24,24,24,0.8);"> <a href="{{ route('register') }}" style="color: white; text-decoration: none;">Join us now !</a> </h3>
 
-                    </br></br>
+                    </br>
 
                     <h4 style="font-size: 16px; color: aqua; background-color: rgba(24,24,24,0.8);">... What are you waiting for ! Login or register and get a *reward : a developper plush !</h4> 
 

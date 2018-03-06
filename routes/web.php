@@ -11,14 +11,15 @@
 |
 */
 
-Route::get('/', function () {
-    return view('auth/login');
-});
-
-// Route::get('/welcome', function () {
-//     return view('welcome');
+// Route::get('/', function () {
+//     return view('auth/login');
 // });
-// Route::post('/welcome')->name('welcome');
+
+// Route::post('logout', 'Auth\LoginController@logout')->name('logout');
+
+Route::get('/', function () {
+    return view('welcome');
+});
 
 Auth::routes();
 // Authentication Routes...
@@ -36,10 +37,9 @@ Auth::routes();
     //Route::get('password/reset/{token}', 'Auth\ResetPasswordController@showResetForm')->name('password.reset');
     //Route::post('password/reset', 'Auth\ResetPasswordController@reset');
 
-// Route::get('/task', 'HomeController@index')->name('task');
-
-Route::get('/home', 'TasksController@index');
-// Route::get('/task','TasksController@add');
-// Route::post('/task','TasksController@create');
-// Route::get('/task/{task}','TasksController@edit');
-// Route::post('/task/{task}','TasksController@update');
+Route::get('/home', 'TasksController@index')->name('task');
+// Route::get('/home', 'TasksController@index');
+Route::get('/task','TasksController@add');
+Route::post('/task','TasksController@create');
+Route::get('/task/{task}','TasksController@edit');
+Route::post('/task/{task}','TasksController@update');

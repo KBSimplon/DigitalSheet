@@ -17,9 +17,10 @@ class CreateTasksTable extends Migration
             $table->increments('id');
             $table->string('lastname');
             $table->string('firstname');
-            $table->string('avatar');
+            $table->string('avatar')->nullable();
             $table->string('formation');
             $table->string('place');
+            $table->integer('user_id')->unsigned()->index();
             $table->timestamps();
         });
     }
