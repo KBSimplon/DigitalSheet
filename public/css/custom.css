@@ -20,8 +20,12 @@
     animation: table 5s ease-in;
 }
 
-.tableDeux {
+#tableDeux {
     border: 2px solid black;
+}
+
+td {
+    color:white
 }
 
 @keyframes table {

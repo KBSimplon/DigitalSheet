@@ -90,13 +90,14 @@
                    
                     
                     
-                    <h1 style="font-size: 36px; color: #4B9CFE; background-color: rgba(24,24,24,0.8);">Welcome To The Simplon Super Awesome Digital Sheet !</h1>
+                    <h1 style="font-size: 36px; color: #4B9CFE; background-color: rgba(24,24,24,0.3); padding-left: 5px; padding-right: 5px;">Welcome To The Simplon Super Awesome Digital Sheet !</h1>
 
                     <!-- <h3 style="font-size: 20px; color: white; background-color: rgba(24,24,24,0.8);">Please log-in or register in the top right corner of this page, it's easy and free, with no adds and a lot of cookies ! </h3> -->
 
-                    </br></br>
-                    <h3 style="font-size: 20px; color: white; background-color: rgba(24,24,24,0.8);"> <a href="{{ route('register') }}" style="color: #78D1F4; text-decoration: none;">Join us now !</a> </h3>
-
+                    </br>
+                    <div class="flex-center">
+                    <h3 style="font-size: 20px; color: white; background-color: rgba(24,24,24,0.3); width: 15%;"> <a href="{{ route('register') }}" style="color: #78D1F4; text-decoration: none;">Join us now !</a> </h3>
+                    </div>
                     
 
                     <!-- <h4 style="font-size: 16px; color: aqua; background-color: rgba(24,24,24,0.8);">... What are you waiting for ! Login or register and get a *reward : a developper plush !</h4> 

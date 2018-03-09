@@ -110,7 +110,7 @@
                 @if (Auth::check())
                     <h2>Students List</h2>
                         <!-- <a href="/task" class="btn btn-primary">Add new Task</a> -->
-                        <table class="table" id="table2" style="background: url('images/welcome2.jpg') no-repeat center fixed; -webkit-background-size: cover; background-size: cover;">
+                        <table class="table" id="tableDeux" style="background: url('images/welcome2.jpg') no-repeat center fixed; -webkit-background-size: cover; background-size: cover;">
                             <thead><tr>
                                 <th>Lastname</th>
                                 <th>Firstname</th>
