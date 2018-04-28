@@ -1,0 +1,38 @@
+.table {
+    border: 2px solid;
+    animation: table 3s ease-in;
+}
+
+@keyframes table {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#table {
+    animation: table 5s ease-in;
+}
+
+#cart {
+    animation: table 5s ease-in;
+}
+
+#tableDeux {
+    border: 2px solid black;
+}
+
+td {
+    color:white
+}
+
+@keyframes table {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
