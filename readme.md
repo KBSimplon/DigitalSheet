@@ -1,6 +1,6 @@
 ## Installation
 
--> composer update
+-> composer update (internet required)
 <br>
 -> create .env
 <br>
